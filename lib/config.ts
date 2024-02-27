@@ -51,10 +51,10 @@ export const name: string = getSiteConfig('name')
 export const author: string = getSiteConfig('author')
 export const domain: string = getSiteConfig('domain')
 export const description: string = getSiteConfig('description', 'Notion Blog')
-export const language: string = getSiteConfig('language', 'en')
+export const language: string = getSiteConfig('language', 'es')
 
 // social accounts
-export const twitter: string | null = getSiteConfig('twitter', null)
+export const twitter: string | null = getSiteConfig('twitter', 'sergioscardigno')
 export const mastodon: string | null = getSiteConfig('mastodon', null)
 export const github: string | null = getSiteConfig('github', null)
 export const youtube: string | null = getSiteConfig('youtube', null)
